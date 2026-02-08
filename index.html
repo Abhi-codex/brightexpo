@@ -22,8 +22,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">
-                <!-- <img src="assets/logo.jpg" alt="Bright Expo Interior Logo"> -->
-                <div class="logo-text">Bright<span>Expo</span></div>
+                <img src="assets/logo.jpg" alt="Bright Expo Interior Logo">
             </a>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -34,19 +33,28 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
                 <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero" style="background-image: url('assets/hero-bg.jpg');">
+    <!-- Hero Section with Slideshow -->
+    <section id="home" class="hero">
+        <!-- Background Slides -->
+        <div class="hero-slides">
+            <div class="hero-slide active" style="background-image: url('assets/gallery-19.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/gallery-20.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/gallery-21.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/gallery-22.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/gallery-24.jpg');"></div>
+        </div>
         <div class="overlay"></div>
         <div class="container hero-content">
-            <h1>Bright Expo Interior</h1>
-            <p class="tagline">Exhibition | 3D Stalls Designing | Fabrication | Branding | Interior</p>
-            <a href="https://wa.me/919716891419?text=Hello,%20I%20am%20interested%20in%20your%20services.%20Can%20we%20discuss?"
+            <h1>Creating Spaces That Speak Your Brand</h1>
+            <p class="tagline">Exhibitions | 3D Stall Designing | Stall Fabrication | Branding | Interior Solutions</p>
+            <a href="https://wa.me/918076973008?text=Hello,%20I%20am%20interested%20in%20your%20services.%20Can%20we%20discuss?"
                 target="_blank" class="btn btn-primary">Get a Quote</a>
         </div>
     </section>
@@ -54,17 +62,55 @@
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
+            <h2 class="section-title">Who We Are</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Welcome to <strong>Bright Expo Interior</strong>. We are a premier design and fabrication agency
-                        specializing in creating immersive experiences for brands.</p>
-                    <p>With a focus on <strong>Exhibition</strong>, <strong>3D Stalls Designing</strong>,
-                        <strong>Fabrication</strong>, <strong>Branding</strong>, and <strong>Interior</strong>
-                        solutions, we transform spaces into compelling visual narratives.
-                    </p>
-                    <p>Our team is dedicated to delivering high-quality craftsmanship and innovative designs that make
-                        your brand stand out.</p>
+                    <p>At <strong>Bright Expo Interior</strong>, creativity meets craftsmanship.</p>
+                    <p>Bright Expo Interior is a full-service exhibition stall design and fabrication company,
+                        delivering end-to-end exhibition and event solutions across India. We don’t just build stalls —
+                        we craft brand experiences that attract, engage, and convert visitors into customers.</p>
+                    <p>With a strong foundation in design innovation, precision fabrication, and flawless execution, we
+                        help brands make a powerful impact at exhibitions, trade shows, and corporate events. From
+                        conceptual 3D designs to on-site installation, our expert team manages every detail — ensuring
+                        quality, consistency, and timely delivery.</p>
+                </div>
+
+                <div class="vision-mission">
+                    <div class="vm-card">
+                        <i class="fa-solid fa-bullseye fa-2x"
+                            style="color:var(--primary-color); margin-bottom:10px;"></i>
+                        <h3>Our Vision</h3>
+                        <p>To be recognized as one of India’s most reliable and creative exhibition solution providers,
+                            known for innovation, quality, and excellence in execution.</p>
+                    </div>
+                    <div class="vm-card">
+                        <i class="fa-solid fa-rocket fa-2x" style="color:var(--primary-color); margin-bottom:10px;"></i>
+                        <h3>Our Mission</h3>
+                        <ul
+                            style="text-align:left; font-size:0.95rem; margin-top:10px; padding-left:15px; list-style:disc;">
+                            <li>Deliver unique and engaging exhibition environments</li>
+                            <li>Combine creative design with strong technical execution</li>
+                            <li>Maintain premium quality standards</li>
+                            <li>Exceed client expectations at every stage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="why-us">
+                    <h3 style="margin-top:50px; color:var(--secondary-color);">Why Bright Expo Interior?</h3>
+                    <div class="checklist">
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> Innovative & Customized
+                            Designs</div>
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> Experienced Design &
+                            Execution Team</div>
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> Premium Material &
+                            Finishing</div>
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> Timely Delivery with Zero
+                            Compromise</div>
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> Transparent Pricing</div>
+                        <div class="checklist-item"><i class="fa-solid fa-check-circle"></i> One-Stop Exhibition
+                            Solution</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,61 +119,210 @@
     <!-- Services Section -->
     <section id="services" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title">What We Do</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <i class="fa-solid fa-shapes"></i>
-                    <h3>Exhibition Stalls</h3>
-                    <p>Custom designed exhibition stalls that capture attention and drive footfall.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-cube"></i>
-                    <h3>3D Designing</h3>
-                    <p>Photorealistic 3D renders to visualize your space before we build it.</p>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>Exhibition Stall Designing</h3>
+                    <p>High-impact 3D stall designs tailored to your brand, audience, and exhibition goals.</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-hammer"></i>
-                    <h3>Fabrication</h3>
-                    <p>Expert fabrication with precision and high-quality materials.</p>
+                    <h3>Custom & Modular Stall Fabrication</h3>
+                    <p>Precision fabrication using premium materials for durability, aesthetics, and safety.</p>
                 </div>
                 <div class="service-card">
-                    <i class="fa-solid fa-paintbrush"></i>
-                    <h3>Branding</h3>
-                    <p>Comprehensive branding solutions to elevate your corporate identity.</p>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h3>Event & Expo Setup</h3>
+                    <p>Complete setup solutions for exhibitions, expos, product launches, and corporate events.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h3>Branding & Graphics</h3>
+                    <p>Creative branding solutions including graphics, panels, signage, LED displays, and visual
+                        elements.</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-couch"></i>
-                    <h3>Interior Design</h3>
-                    <p>Modern and functional interior design for offices and commercial spaces.</p>
+                    <h3>Interior Solutions</h3>
+                    <p>Functional and modern commercial & exhibition interior designs that enhance space and usability.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Process Section -->
+    <section id="process" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Work Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <span class="process-number">01</span>
+                    <i class="fa-solid fa-comments fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Consultation & Analysis</h4>
+                    <p style="font-size:0.9rem;">Understanding client needs & requirements.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-number">02</span>
+                    <i class="fa-solid fa-lightbulb fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Creative Concept</h4>
+                    <p style="font-size:0.9rem;">3D Visualization & unique ideas.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-number">03</span>
+                    <i class="fa-solid fa-circle-check fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Design Approval</h4>
+                    <p style="font-size:0.9rem;">Finalizing design & planning.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-number">04</span>
+                    <i class="fa-solid fa-screwdriver-wrench fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Fabrication</h4>
+                    <p style="font-size:0.9rem;">Production & Quality Control.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-number">05</span>
+                    <i class="fa-solid fa-truck-ramp-box fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Installation</h4>
+                    <p style="font-size:0.9rem;">On-site setup & execution.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-number">06</span>
+                    <i class="fa-solid fa-handshake fa-2x" style="color:var(--secondary-color);"></i>
+                    <h4>Handover</h4>
+                    <p style="font-size:0.9rem;">Successful project delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <div class="industries-list">
+                <div class="industry-tag"><i class="fa-solid fa-store"></i> Exhibitions & Trade Shows</div>
+                <div class="industry-tag"><i class="fa-solid fa-building"></i> Corporate & Business Events</div>
+                <div class="industry-tag"><i class="fa-solid fa-shop"></i> Commercial Interior Projects</div>
+                <div class="industry-tag"><i class="fa-solid fa-basket-shopping"></i> FMCG & Consumer Brands</div>
+                <div class="industry-tag"><i class="fa-solid fa-car"></i> Automobile & Engineering</div>
+                <div class="industry-tag"><i class="fa-solid fa-city"></i> Real Estate & Infrastructure</div>
+                <div class="industry-tag"><i class="fa-solid fa-microchip"></i> Technology & IT Companies</div>
+                <div class="industry-tag"><i class="fa-solid fa-notes-medical"></i> Healthcare & Pharma</div>
+                <div class="industry-tag"><i class="fa-solid fa-graduation-cap"></i> Education & Institutions</div>
+                <div class="industry-tag"><i class="fa-solid fa-shirt"></i> Retail & Lifestyle Brands</div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
+    <section id="portfolio" class="section portfolio-section">
         <div class="container">
             <h2 class="section-title">Our Work</h2>
             <p class="section-subtitle">A glimpse of our recent projects</p>
-            <div class="portfolio-grid">
-                <!-- Images will be loaded assuming they exist as copied -->
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-1.jpg" alt="Project 1">
+        </div>
+
+        <!-- Scrolling Gallery Rows -->
+        <div class="marquee-gallery">
+            <!-- Row 1 - moves right to left -->
+            <div class="marquee-row">
+                <div class="marquee-track">
+                    <img src="assets/gallery-4.jpg" alt="Project">
+                    <img src="assets/gallery-5.jpg" alt="Project">
+                    <img src="assets/gallery-6.jpg" alt="Project">
+                    <img src="assets/gallery-7.jpg" alt="Project">
+                    <img src="assets/gallery-8.jpg" alt="Project">
+                    <img src="assets/gallery-9.jpg" alt="Project">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="assets/gallery-4.jpg" alt="Project">
+                    <img src="assets/gallery-5.jpg" alt="Project">
+                    <img src="assets/gallery-6.jpg" alt="Project">
+                    <img src="assets/gallery-7.jpg" alt="Project">
+                    <img src="assets/gallery-8.jpg" alt="Project">
+                    <img src="assets/gallery-9.jpg" alt="Project">
                 </div>
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-2.jpg" alt="Project 2">
+            </div>
+
+            <!-- Row 2 - moves left to right (reverse) -->
+            <div class="marquee-row reverse">
+                <div class="marquee-track">
+                    <img src="assets/gallery-8.jpg" alt="Project">
+                    <img src="assets/gallery-9.jpg" alt="Project">
+                    <img src="assets/gallery-10.jpg" alt="Project">
+                    <img src="assets/gallery-11.jpg" alt="Project">
+                    <img src="assets/gallery-12.jpg" alt="Project">
+                    <img src="assets/gallery-13.jpg" alt="Project">
+                    <img src="assets/gallery-14.jpg" alt="Project">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="assets/gallery-8.jpg" alt="Project">
+                    <img src="assets/gallery-9.jpg" alt="Project">
+                    <img src="assets/gallery-10.jpg" alt="Project">
+                    <img src="assets/gallery-11.jpg" alt="Project">
+                    <img src="assets/gallery-12.jpg" alt="Project">
+                    <img src="assets/gallery-13.jpg" alt="Project">
+                    <img src="assets/gallery-14.jpg" alt="Project">
                 </div>
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-3.jpg" alt="Project 3">
+            </div>
+
+            <!-- Row 3 - moves right to left -->
+            <div class="marquee-row">
+                <div class="marquee-track">
+                    <img src="assets/gallery-15.jpg" alt="Project">
+                    <img src="assets/gallery-16.jpg" alt="Project">
+                    <img src="assets/gallery-17.jpg" alt="Project">
+                    <img src="assets/gallery-18.jpg" alt="Project">
+                    <img src="assets/gallery-19.jpg" alt="Project">
+                    <img src="assets/gallery-20.jpg" alt="Project">
+                    <img src="assets/gallery-21.jpg" alt="Project">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="assets/gallery-15.jpg" alt="Project">
+                    <img src="assets/gallery-16.jpg" alt="Project">
+                    <img src="assets/gallery-17.jpg" alt="Project">
+                    <img src="assets/gallery-18.jpg" alt="Project">
+                    <img src="assets/gallery-19.jpg" alt="Project">
+                    <img src="assets/gallery-20.jpg" alt="Project">
+                    <img src="assets/gallery-21.jpg" alt="Project">
                 </div>
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-4.jpg" alt="Project 4">
+            </div>
+
+            <!-- Row 4 - moves left to right (reverse) -->
+            <div class="marquee-row reverse">
+                <div class="marquee-track">
+                    <img src="assets/gallery-22.jpg" alt="Project">
+                    <img src="assets/gallery-23.jpg" alt="Project">
+                    <img src="assets/gallery-24.jpg" alt="Project">
+                    <img src="assets/gallery-25.jpg" alt="Project">
+                    <img src="assets/gallery-26.jpg" alt="Project">
+                    <img src="assets/gallery-27.jpg" alt="Project">
+                    <img src="assets/gallery-28.jpg" alt="Project">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="assets/gallery-22.jpg" alt="Project">
+                    <img src="assets/gallery-23.jpg" alt="Project">
+                    <img src="assets/gallery-24.jpg" alt="Project">
+                    <img src="assets/gallery-25.jpg" alt="Project">
+                    <img src="assets/gallery-26.jpg" alt="Project">
+                    <img src="assets/gallery-27.jpg" alt="Project">
+                    <img src="assets/gallery-28.jpg" alt="Project">
                 </div>
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-5.jpg" alt="Project 5">
-                </div>
-                <div class="portfolio-item">
-                    <img src="assets/portfolio-6.jpg" alt="Project 6">
+            </div>
+
+            <!-- Row 5 - moves right to left -->
+            <div class="marquee-row">
+                <div class="marquee-track">
+                    <img src="assets/gallery-29.jpg" alt="Project">
+                    <img src="assets/gallery-30.jpg" alt="Project">
+                    <img src="assets/gallery-31.jpg" alt="Project">
+                    <img src="assets/gallery-32.jpg" alt="Project">
+                    <img src="assets/gallery-34.jpg" alt="Project">
+                    <img src="assets/gallery-10.jpg" alt="Project">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="assets/gallery-29.jpg" alt="Project">
+                    <img src="assets/gallery-30.jpg" alt="Project">
+                    <img src="assets/gallery-31.jpg" alt="Project">
+                    <img src="assets/gallery-32.jpg" alt="Project">
+                    <img src="assets/gallery-34.jpg" alt="Project">
+                    <img src="assets/gallery-10.jpg" alt="Project">
                 </div>
             </div>
         </div>
@@ -139,6 +334,8 @@
             <h2 class="section-title text-white">Contact Us</h2>
             <div class="contact-wrapper">
                 <div class="contact-info">
+                    <p style="margin-bottom:20px;">Whether it’s a custom exhibition stall, a large-scale expo setup, or
+                        a complete branding solution, Bright Expo Interior is your trusted partner.</p>
                     <div class="contact-item">
                         <i class="fa-solid fa-user"></i>
                         <div>
@@ -150,8 +347,8 @@
                         <i class="fa-solid fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p><a href="tel:+919716891419">+91 9716891419</a></p>
                             <p><a href="tel:+918076973008">+91 8076973008</a></p>
+                            <p><a href="tel:+919716891419">+91 9716891419</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -192,12 +389,14 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Bright Expo Interior. All Rights Reserved.</p>
+            <p>&copy; 2026 Bright Expo Interior. All Rights Reserved. | <a href="#home">Home</a> | <a
+                    href="#contact">Contact</a></p>
         </div>
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/919716891419" class="whatsapp-float" target="_blank">
+    <a href="https://wa.me/918076973008?text=Hello,%20I%20saw%20your%20website%20and%20want%20to%20know%20more."
+        class="whatsapp-float" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 

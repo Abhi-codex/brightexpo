@@ -60,4 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
         element.classList.add('reveal');
         revealObserver.observe(element);
     });
+
+    // Hero Background Slideshow
+    const heroSlides = document.querySelectorAll('.hero-slide');
+    let currentSlide = 0;
+
+    function nextSlide() {
+        heroSlides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % heroSlides.length;
+        heroSlides[currentSlide].classList.add('active');
+    }
+
+    // Change slide every 4 seconds
+    if (heroSlides.length > 0) {
+        setInterval(nextSlide, 4000);
+    }
 });
